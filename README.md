@@ -195,8 +195,9 @@ with the appropriate values:
 * minor
 
 
-#### 4. Modify ReactJS to render the new information in our tile. This information will be placed
-in our existing <div className="health"> in [./static/scripts/aci.js](./static/scripts/aci.js)
+#### 3. Modify ReactJS to render the new information in our tile.
+
+This information will be placed in our existing <div className="health"> in [./static/scripts/aci.js](./static/scripts/aci.js)
 
 
 
