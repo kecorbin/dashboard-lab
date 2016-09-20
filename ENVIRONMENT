@@ -1,0 +1,3 @@
+APIC_LOGIN=admin
+APIC_URL=http://apicip
+APIC_PASSWORD=supersecret
