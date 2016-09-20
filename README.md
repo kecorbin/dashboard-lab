@@ -14,11 +14,11 @@ Creates an ACI Dashboard
 
 ![screenshot](static/img/screenshot.png)
 
-
-# TODO
 ## Requirements
 
-* Docker
+* Docker - https://www.docker.com/products/docker
+* APIC controller - If you do not have access to your own APIC controller, you can use one of the DevNet sandboxes
+located at https://developer.cisco.com/site/devnet/sandbox/available-labs/data-center/index.gsp
 
 ### Lab Exercise
 
@@ -37,8 +37,7 @@ The basic framework for our application is already in place, we need to add a fe
 
 We will be developing our application using Docker, but we need a way to pass runtime information about the APIC controller we will be using to get our data from.  
 
-If you do not have access to your own APIC controller, you can use one of the DevNet sandboxes
-located at https://developer.cisco.com/site/devnet/sandbox/available-labs/data-center/index.gsp
+
 
 Modify the [./ENVIORNMENT](./ENVIRONMENT) file with your APIC information.
 ```
