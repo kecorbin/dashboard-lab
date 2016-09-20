@@ -220,3 +220,12 @@ in our existing <div className="health"> in [./static/scripts/aci.js](./static/s
      </div>
 
 ```
+
+
+## Bonus Challenges
+
+1. The app is currently creating static green buttons for the healh score using the btn btn-success class, create a function in aci.js  which dynamically changes the color of the button based on the health score. 
+
+2. Create a button at the top of the page representing the health score of the entire fabric. 
+
+
