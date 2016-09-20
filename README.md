@@ -1,6 +1,6 @@
 # aci-dashboard-tutorial
 
-Creates an ACI Dashboard
+Creates an ACI Dashboard that displays tenant health scores and fault information 
 
 ## Technologies Used
 
