@@ -42,8 +42,8 @@ We will be developing our application using Docker, but we need a way to pass ru
 Modify the [./ENVIORNMENT](./ENVIRONMENT) file with your APIC information.
 ```
 APIC_LOGIN=admin
-APIC_URL=http://10.94.140.72
-APIC_PASSWORD=ins3965!
+APIC_URL=http://myapic
+APIC_PASSWORD=supersecuret
 
 ```
 
