@@ -1,6 +1,8 @@
 # aci-dashboard-tutorial
 
-Creates an ACI Dashboard that displays tenant health scores and fault information 
+Creates an ACI Dashboard that displays tenant health scores and fault information
+
+![screenshot](static/img/screenshot.png)
 
 ## Technologies Used
 
@@ -11,8 +13,6 @@ Creates an ACI Dashboard that displays tenant health scores and fault informatio
 * ReactJS
 * Docker
 
-
-![screenshot](static/img/screenshot.png)
 
 ## Requirements
 
