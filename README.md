@@ -37,6 +37,9 @@ The basic framework for our application is already in place, we need to add a fe
 
 We will be developing our application using Docker, but we need a way to pass runtime information about the APIC controller we will be using to get our data from.  
 
+If you do not have access to your own APIC controller, you can use one of the DevNet sandboxes
+located at https://developer.cisco.com/site/devnet/sandbox/available-labs/data-center/index.gsp
+
 Modify the [./ENVIORNMENT](./ENVIRONMENT) file with your APIC information.
 ```
 APIC_LOGIN=admin
@@ -224,8 +227,6 @@ in our existing <div className="health"> in [./static/scripts/aci.js](./static/s
 
 ## Bonus Challenges
 
-1. The app is currently creating static green buttons for the healh score using the btn btn-success class, create a function in aci.js  which dynamically changes the color of the button based on the health score. 
+1. The app is currently creating static green buttons for the healh score using the btn btn-success class, create a function in aci.js  which dynamically changes the color of the button based on the health score.
 
-2. Create a button at the top of the page representing the health score of the entire fabric. 
-
-
+2. Create a button at the top of the page representing the health score of the entire fabric.
