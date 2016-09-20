@@ -184,7 +184,7 @@ From here you should be able to identify an endpoint that will return fault coun
 With this information, modify the `get_tenant_faultcounts(obj)` function in [./aci-dashboard-tutorial.py](./aci-dashboard-tutorial.py)
 to return this information.  
 
-2. Make it available via our API
+#### 2. Make it available via our API
 
 We will also add keys to the dictionary that gets created for each tenant object in the `dash()` function, adding the following keys
 with the appropriate values:
@@ -195,7 +195,7 @@ with the appropriate values:
 * minor
 
 
-3. Modify ReactJS to render the new information in our tile. This information will be placed
+#### 4. Modify ReactJS to render the new information in our tile. This information will be placed
 in our existing <div className="health"> in [./static/scripts/aci.js](./static/scripts/aci.js)
 
 
